@@ -45,8 +45,11 @@ resource "google_compute_instance_group_manager" "appserver" {
   # }
 }
 
-
+data "local_file" "startup_script" {
+  filename = "./instances-group/overwrite_script.sh"
+}
 resource "google_compute_region_instance_template" "default" {
+  metadata_startup_script = data.local_file.startup_script.filename
   name_prefix  = "it-manhlnd1-uscentral-dev-lab01-"
   machine_type = "e2-small"
 
@@ -54,11 +57,6 @@ resource "google_compute_region_instance_template" "default" {
     automatic_restart   = true
     on_host_maintenance = "MIGRATE"
   }
-
-  # metadata_startup_script = <<-EOF
-  #   sudo chmod 777 /var/www/html/index.html \
-  #   echo "Hello world from $(hostname) $(hostname -I) with ManhLND1" > /var/www/html/index.html
-  # EOF khúc này bị lỗi em chưa xử lý được
 
   disk {
     source_image = var.source_image_name

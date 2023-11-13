@@ -58,7 +58,7 @@ resource "google_compute_region_instance_template" "default" {
   # metadata_startup_script = <<-EOF
   #   sudo chmod 777 /var/www/html/index.html \
   #   echo "Hello world from $(hostname) $(hostname -I) with ManhLND1" > /var/www/html/index.html
-  # EOF
+  # EOF khúc này bị lỗi em chưa xử lý được
 
   disk {
     source_image = var.source_image_name

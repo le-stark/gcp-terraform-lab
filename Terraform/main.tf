@@ -32,6 +32,7 @@ module "back-end-service" {
 module "http-load-balancing" {
   source = "./http-load-balancing"
   backend_service_url = module.back-end-service.backend_service_url
+  static_ip = var.static_ip
 }
 
 module "notification_monitoring" {

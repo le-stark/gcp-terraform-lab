@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "my-project-manhlnd1",
+  "private_key_id": "7bb9b64a8370f3bfff9918b30e87c455c17f11d9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDLCh+UpPHHKgiQ\nuRw+R8SnUDkKw4e4U57jAoossii1gNSFNNt5sFVPGkXHDQOsyt0lJwXwxl6ksOLh\nr1wNM+LypwxBbB4ZOdtlGtSQ4je3ubwPmVJabhcun2fLF2WLaFzihHSJ0qfHjjpE\ncv4KuqDMZvsIIClnlDy2HFEWaMWi8OfTc/bPmB6TR5BGhQSlYJtDOSxYB38tFbGk\n1JbKTHvbnwtZEV07SZzcFMWvUqUHKyz2kkYXvlPkyTJmHUEJ62WbDwFfRQetdlGR\nJl/Y6bqKbmScD6nvxNr5ZLaxKgipry1J5M6za/xQn82EWMxF2S58yyaWZhXp4vgo\ntdOsyCQ7AgMBAAECggEATYU59Yjcfww/ZPIoJGdGYBMzFDb/VJMosMfBdbs368Sa\nX5mEyntWtvLy/UKsyoZR1OOHUxyJ+htHJJ/NZ4UN+1NoTHo5K6x5ZarOydp1J4KU\nmOgTF0+9LiHSgSoXrRhVjm7AB/cT9A8LlCLLd9E1n5UZ90pARLnGTEmXdBTgkIr3\nOtx/udwYXGPYJGEtHnt+9l7UE4BNle5PX4uO3KvBvA72kYCwi9z6QoyrU+T+uDVM\nA4Gg0OYserxNAZNlSbwa3zxDQvjEC0NwkgADXQNAKnXYLi87StE9gXNsfCnEWOWd\nc2YrlXHUak1cV28xqlWTKnLk60ULERLbqVWIgwsasQKBgQD6ewlAwImZx/kPe0AW\n0EsVs/GW+a76v+dYzhs9gtDdQsIZcvWyp2/P9mCrRmbymA8okMeDkq1TL72sNk1Q\nZMbVJK1PmdCH3AaL/s9o47DXoArny/c79d6kJ1AAT8c3KYcNq1DBZopEiA0MjyJf\nreuFl6ChTtI/cPDzMFDENtJOlwKBgQDPg3i9+VPxqt9Oo66pScXEPHOc9OF6j7jS\nCWDd7pbz3TgttFoi426uOsZlvsFlUifSTGcBG43jf6bVVcPhCp68ldHxnt0MuBbo\nMvXby1nG96sZFLCm1uydjaBDjUt8iR6VrL3tdyRIPmqKEhbXD+Jj6uUUPvFi9ppv\nP3eusKtv/QKBgQDI/15Hdbl1i8DSqYaeR/tYqRMeobHGSaRt4MZ/L7BHPUDghx2e\nhTn2WbDtAAuwdFEFrlhLvrITZOYBgXm9H4FmnI3uqHFr9CXUxV7Ovpe0EBtwMn5s\nwTot49YQyfQE0fAsCeM9rvkZUUuXXmyo9rledHRTvRp+CjVwEL9fFNbidQKBgBru\n22r8w1JodRdF01ORiaOQnQjQF7vKj5hjMzla0CjSm4oDEHfawPDIHBv0iDFYWmbH\nF89i/iV62fJycTvyHuwnHdqYXeRauE5m3tYqLHrQhlp4/vyIhKlmSli6LAP74AZZ\nJ0V84y6lOzq0YlaDb0S8pgLcsIPBsgWiXSxFLdsZAoGAJbr6ItJmvbB1oGYJd6Ug\nujw5vZQ9DFxAqz3bB7olS3FIr1Fa+FiB8XEwLps8FxAlNaPtZy6MiPeahvOsWBjs\nEAAMSQmY9NiIj6cArXbLKGaXkjRivoAg7Dci0pQCZ3pP85N1XjjZb45ycW6VU0td\n5ZOXUOBX1CAvCJqCmtRYEvE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ubuntu-packer-image@my-project-manhlnd1.iam.gserviceaccount.com",
+  "client_id": "116658285189562108471",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ubuntu-packer-image%40my-project-manhlnd1.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

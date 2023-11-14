@@ -49,7 +49,9 @@ data "local_file" "startup_script" {
   filename = "./instances-group/overwrite_script.sh"
 }
 resource "google_compute_region_instance_template" "default" {
-  metadata_startup_script = data.local_file.startup_script.filename
+  metadata =  {
+    startup-script = file(data.local_file.startup_script.filename)
+  }
   name_prefix  = "it-manhlnd1-uscentral-dev-lab01-"
   machine_type = "e2-small"
 
